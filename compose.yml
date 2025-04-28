@@ -1,0 +1,6 @@
+services:
+  security:
+    image: users-security
+    ports:
+      - "8001:8001"
+    restart: always
